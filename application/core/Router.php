@@ -3,12 +3,12 @@
 class Router extends Libs
 {
 	private $routes = [ 
-		"" 				=> "C:/OSPanel/domains/test/application/controllers/MainPage.php",
-		"countries" 	=> "C:/OSPanel/domains/test/application/controllers/Country.php",
-		"medal" 		=> "C:/OSPanel/domains/test/application/controllers/Medal.php",
-		"sportsmans" 	=> "C:/OSPanel/domains/test/application/controllers/Sportsman.php",
-		"sports" 		=> "C:/OSPanel/domains/test/application/controllers/Sport.php",
-		"medals_list"	=> "C:/OSPanel/domains/test/application/controllers/MedalList.php"
+		"" 		=> "../controllers/MainPage.php",
+		"countries" 	=> "../controllers/Country.php",
+		"medal" 	=> "../controllers/Medal.php",
+		"sportsmans" 	=> "../controllers/Sportsman.php",
+		"sports" 	=> "../controllers/Sport.php",
+		"medals_list"	=> "../controllers/MedalList.php"
 	];
 
 	private function getRequestPath() 
