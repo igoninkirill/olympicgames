@@ -4,8 +4,8 @@ class MainPage extends Libs
 {
 
 	public function __construct()
-    {
-        $this->class = new ModelMainPage;
+	{
+		$this->class = new ModelMainPage;
 	}
 
 	private $sortArr = [
@@ -18,12 +18,12 @@ class MainPage extends Libs
 		"silver"	=> "silver",
 		"bronze" 	=> "bronze"
 	];
-					
+
 	private function sorting()
 	{
 		return ((isset($_GET['sort']) and $_GET['sort'] == 'asc') ? 'desc' : 'asc');
 	}
-	
+
 	public function index() 
 	{
 		$class = $this->class;
